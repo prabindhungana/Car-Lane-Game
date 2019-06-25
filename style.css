@@ -1,0 +1,15 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+#gameover
+{
+    width: 500px;
+    height: 200px;
+    position: absolute;
+    margin: 0 auto;
+    top: 50px;
+    font-size: 50px;
+    color: white;
+}
