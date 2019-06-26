@@ -31,7 +31,7 @@ function createRoad(width, height) {
     this.lane1.style.top = this.yVelocity;
     this.container.appendChild(this.lane1);
     this.lane2 = document.createElement("div");
-    this.lane2.style.backgroundImage = "url(Border.png)";
+    this.lane2.style.backgroundImage = "url('Border.png')";
     this.lane2.style.position = "absolute";
     this.lane2.style.width = 10 + "px";
     this.lane2.style.height = 100 + "%";
@@ -85,7 +85,7 @@ function insertCar(width, height, parent) {
     this.car = document.createElement("img");
 
     console.log(CARS);
-    this.car.setAttribute("src", "../Images/moving-down.png");
+    this.car.setAttribute("src", "./Images/moving-down.png");
     this.car.style.width = this.width + "px";
     this.car.style.height = this.height + "px";
     this.car.style.position = "absolute";
