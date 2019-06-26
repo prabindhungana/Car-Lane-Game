@@ -163,7 +163,7 @@ function createPlayerCar(width, height, parent) {
   var playerCarLane=2;
   this.init = function() {
     playerCar = document.createElement("img");
-    playerCar.setAttribute("src", "../Images/moving-up.png");
+    playerCar.setAttribute("src", "./Images/moving-up.png");
     playerCar.style.height = this.height + "px";
     playerCar.style.position = "absolute";
     playerCar.style.top = 520 + 'px';
